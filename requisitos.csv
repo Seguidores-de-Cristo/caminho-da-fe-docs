@@ -1,0 +1,31 @@
+Acompanhamento do discipulado,,,,
+ID,Requisito,Descrição detalhada,Prioridade,Tipo
+1,Efetuar login,"Todos os usuários devem possuir acesso ao sistema via login 
+(exceto o administrador, que poderá utilizar a senha técnica padrão)",Alta,Funcional
+2,Cadastro de usuários,"O sistema deve ser capaz de efetuar o cadastro de usuários 
+que irão utilizar o sistema",Alta,Funcional
+3,Cadastro de discipuadores,"O sistema deve ser capaz de efetuar o cadastro de discipuladores 
+que irão utilizar o sistema (um discipulador, pode ser o mesmo usuário)",Alta,Funcional
+4,Cadastro de novos convertidos,"O sistema deve ser capaz de efetuar o cadastro de novos
+que aceitaram a Jesus, no cadastro deve conter informações básicas
+como: Nome, endereço (com possibilidade de preenchimento automático 
+via CEP), telefone, data que aceitou Jesus, tipo do evento: culto, 
+Evangelismo, culto no lar, congresso, outros (especificar).",Alta,Funcional
+5,"Gerenciar o acompanhamento 
+Do discipulado do novo convertido","Cada novo convertido terá um discipulador para orientação. O discipulador
+Deve a cada contato registrar os detalhes do contato, conversa, convites
+lançados e o que realmente ocorreu pós convite, inclusive nos próximos 
+Contatos que serão feitos",Alta,Funcional
+6,Fechar a operação,"Fechar a operação, caso por algum motivo o novo convertido não deseja
+Mais receber nenhum contato, o discipulador deve tentar identificar o 
+motivo, registra-lo e fechar o discipulado.",Alta,Funcional
+7,Atualizar status do processo,"O discipulador deve modificar o status de cada processo conforme o 
+andamento do processo, sendo os status: Aberto, abortado(quando o 
+fovo convertido não deseja mais receber contatos), em andamento e 
+finalizado (significa que o novo convertido irá se batizar).",Alta,Não Funcional
+8,"Associar novo convertido ao 
+Discipulador","Usuários cadastrados, podem associar novos convertidos à discipuladores
+Já cadastrados e disponíveis para iniciar o processo.",Alta,Funcional
+9,Logs,"O sistema deve registrar todos as operações efetuadas pelos usuários
+E salvar cada uma das operações na tabela de logs, contend o id, nome 
+Do usuário, operação, data e hora",Média,Não Funcional
