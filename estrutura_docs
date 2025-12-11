@@ -1,0 +1,31 @@
+caminho-da-fe-docs/
+│
+├── docs/
+│   ├── index.md
+│   ├── disciplinaores/
+│   │   ├── overview.md
+│   │   ├── endpoints.md
+│   │   └── examples.md
+│   └── novos_convertidos/
+│       ├── overview.md
+│       ├── endpoints.md
+│       └── examples.md
+│
+├── app/
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── crud/
+│   │   ├── discipuladores.py
+│   │   └── novos_convertidos.py
+│   ├── routes/
+│   │   ├── discipuladores.py
+│   │   └── novos_convertidos.py
+│   └── database.py
+│
+├── tests/
+│   ├── test_discipuladores.py
+│   └── test_novos_convertidos.py
+│
+├── requirements.txt
+└── README.md
